@@ -1,6 +1,6 @@
-import menuPdf from '../assets/menu.pdf';
-
-export const menuUrl = menuPdf;
+const menuModules = import.meta.glob('../assets/menu/*.{jpg,jpeg,png}', { eager: true });
+export const menuImages = Object.values(menuModules || {}).map((m) => m.default || m);
+export const menuUrl = menuImages[0] ?? '';
 export const instagramUrl = 'https://www.instagram.com/tanit__cafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
 export const facebookUrl = 'https://www.facebook.com/profile.php?id=61587154905976';
 export const mapsUrl = 'https://maps.app.goo.gl/7aHcdSQb7hdmLL9B7';
