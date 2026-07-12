@@ -4,7 +4,7 @@ export const menuUrl = menuImages[0] ?? '';
 export const instagramUrl = 'https://www.instagram.com/tanit__cafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
 export const facebookUrl = 'https://www.facebook.com/profile.php?id=61587154905976';
 export const mapsUrl = 'https://maps.app.goo.gl/7aHcdSQb7hdmLL9B7';
-export const whatsappUrl = 'https://wa.me/ ?text=Hello%20Caf%C3%A9%20Tanit,%20I%20would%20like%20to%20book%20or%20ask%20about%20the%20menu.';
+export const whatsappUrl = 'https://wa.me/17808604566?text=Hello%20Caf%C3%A9%20Tanit,%20I%20would%20like%20to%20book%20or%20ask%20about%20the%20menu.';
 
 export const actionLinks = [
   {
